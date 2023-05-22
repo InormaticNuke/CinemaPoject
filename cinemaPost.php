@@ -22,8 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $totalDiscount = $total - ($total * $discount);
 
     echo "Ticket amount: " . $qtt . "<br>";
-    echo "Discount applied: " . ($discount * 100) . "%<br>";
-    echo "Total amount to pay: $" . $totalDiscount . " CLP";
+    echo "Discount: " . ($discount * 100) . "%<br>";
+    echo "Total amount: $" . $totalDiscount . " CLP";
 }
 
 ?>
