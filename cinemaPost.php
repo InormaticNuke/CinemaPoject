@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             break;
     }
 
-    $total = $qtt * 100;
+    $total = $qtt * 6000;
     $totalDiscount = $total - ($total * $discount);
 
     echo "Ticket amount: " . $qtt . "<br>";
